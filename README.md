@@ -14,6 +14,7 @@ The second project is **Image Segmentation** (`image_segmentation_project.ipynb`
 
 The third project is **Named Entity Recognition for Discourse Classification** (`named_entity_recognition_project.ipynb`), which trains a sequence labeling model to classify text segments into discourse types. A single text may contain multiple rhetorical functions including Lead, B-Position, Claim, Counterclaim, Rebuttal, Evidence, and I-Concluding Statement. The dataset contains thousands of fully annotated argumentative texts.
 
+Unlike the previous projects that focused on classification (sentiment analysis), pixel-level labeling (segmentation), and sequence labeling (NER), the fourth project tackles the challenging task of **simultaneous object localization and classification**. The model detects multiple objects within a single image, drawing bounding boxes around each detected item and identifying its class from 20 possible categories.
 ---
 
 ## Technologies Used
