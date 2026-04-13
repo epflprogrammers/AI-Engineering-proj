@@ -28,6 +28,10 @@ Unlike the previous projects that focused on classification (sentiment analysis)
 
 The fifth project is an **AI Coding Agent** (`codingagent`) that leverages Google's Gemini API to perform autonomous software engineering tasks through natural language conversation. The agent can read directory contents, read and write files, and execute programs. A calculator application is used to demonstrate the agent's capabilities. When the calculator works correctly, `3 + 7 * 2` evaluates to seventeen, but after breaking the precedence, it becomes twenty. The agent autonomously fixes the bug, restoring the correct result to seventeen. This complete debugging workflow is shown in screenshot `codingagent7.png`, and screenshots of many other demos are available in the screenshots folder.
 
+## Project Six: RAG Question-Answering Bot
+
+The sixth project is a **RAG Question-Answering Bot** (`qabotrag.py`) that enables users to upload PDF documents and ask natural language questions about their content using retrieval-augmented generation. The bot extracts text from uploaded PDFs, splits it into manageable chunks, and creates vector embeddings using Hugging Face sentence-transformers. When a user asks a question, the bot retrieves the top three most relevant chunks from ChromaDB and generates an accurate response using IBM watsonx.ai's Granite language model. The complete pipeline is wrapped in an intuitive Gradio web interface and deployed as a live Hugging Face Space, allowing anyone to upload documents and receive AI-generated answers in real time.
+
 ## Technologies Used
 
-PyTorch, scikit-learn, NLTK, Python, Pandas, NumPy, Matplotlib, Jupyter Notebook, Google Gemini API.
+PyTorch, scikit-learn, NLTK, Python, Pandas, NumPy, Matplotlib, Jupyter Notebook, Google Gemini API, LangChain, IBM watsonx.ai, Hugging Face, ChromaDB, Gradio.
