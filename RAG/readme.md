@@ -29,8 +29,8 @@ Behind the scenes, the bot performs intelligent semantic search using vector emb
 6. **Context Retrieval**: Top 3 most relevant chunks are retrieved
 7. **Answer Generation**: IBM Granite LLM generates a response based on retrieved context
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Python 3.11 or higher
 - IBM Cloud account (for watsonx.ai API)
-- Hugging Face account (optional, for embeddings)
+
