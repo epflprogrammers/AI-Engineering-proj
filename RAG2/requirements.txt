@@ -1,0 +1,11 @@
+langchain
+langchain-core
+langchain-community
+langchain-groq
+langgraph
+sentence-transformers
+faiss-cpu
+python-dotenv
+tiktoken
+requests
+charset-normalizer
